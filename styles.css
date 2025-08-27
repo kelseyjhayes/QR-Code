@@ -1,0 +1,75 @@
+:root {
+  /* COLORS */
+--color-dark:#1f314f;
+--color-mid:#68778d;
+--color-light:#d5e1ef;
+--white:#fff;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:var(--color-light);
+}
+
+.text-preset-1 {
+  font-family: Outfit, sans-serif;
+  font-weight: 600;
+  font-size:22px;
+  line-height:120%;
+  letter-spacing: 0px;
+  color: var(--color-dark);
+}
+
+.text-preset-2 {
+  font-family: Outfit, sans-serif;
+  font-weight:300;
+  font-size:15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: var(--color-mid);
+}
+
+.card {
+background-color: var(--white);
+box-shadow:0 0 6px rgba(0,0,0,0.1);
+width:320px;
+height:499px;
+border-radius:20px;
+margin:300px auto;
+padding-top:16px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.qr-code {
+  width: 288px;
+  height:288px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+.message {
+  text-align:center;
+  margin:24px 16px 40px 16px;
+  padding:0 16px;
+}
+
+.message h1 {
+  margin-bottom:16px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
